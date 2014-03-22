@@ -15,13 +15,14 @@ namespace Herencia
 		public static void Main(string[] args)
 		{
 			
-			Profesor _Profesor = new Profesor(12,"Juan","Ahumada");
+			Profesor _Profesor = new Profesor(12,"Juan","Ahumada","Jalisco");
 			Personal _Personal = new Personal(39,"Christian", "Gonzalez");
 			
 			Console.WriteLine("Clase Profesor");
 			Console.WriteLine("Id : "+ _Profesor.Id);
 			Console.WriteLine("Nombre : "+ _Profesor.Nombre);
 			Console.WriteLine("Apellido : "+ _Profesor.Apellidos );
+			Console.WriteLine("Direccion : "+ _Profesor.Direccion );
 			Console.WriteLine("------------------------------------");
 			Console.WriteLine("Clase Personal");
 			Console.WriteLine("Id : "+ _Personal.Id);
