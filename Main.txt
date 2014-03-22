@@ -1,0 +1,35 @@
+
+/*
+ * Creado por SharpDevelop.
+ * Usuario: Juan
+ * Fecha: 22/03/2014
+ * Hora: 03:03 p.m.
+ * /
+
+using System;
+
+namespace Herencia
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			Profesor _Profesor = new Profesor(12,"Juan","Ahumada");
+			Personal _Personal = new Personal(39,"Christian", "Gonzalez");
+			
+			Console.WriteLine("Clase Profesor");
+			Console.WriteLine("Id : "+ _Profesor.Id);
+			Console.WriteLine("Nombre : "+ _Profesor.Nombre);
+			Console.WriteLine("Apellido : "+ _Profesor.Apellidos );
+			Console.WriteLine("------------------------------------");
+			Console.WriteLine("Clase Personal");
+			Console.WriteLine("Id : "+ _Personal.Id);
+			Console.WriteLine("Nombre : "+ _Personal.Nombre);
+			Console.WriteLine("Apellido : "+ _Personal.Apellidos );
+			
+			
+			Console.ReadKey(true);
+		}
+	}
+}

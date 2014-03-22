@@ -1,0 +1,28 @@
+/*
+ * Creado por SharpDevelop.
+ * Usuario: Juan
+ * Fecha: 22/03/2014
+ * Hora: 03:46 p.m.
+ */
+
+using System;
+
+namespace Herencia
+{
+
+	public class Profesor:Personal
+	{	
+		private string _Direccion;
+		
+		public string Direccion
+		{
+			get { return _Direccion; }
+			set { _Direccion = value;}
+		}
+		
+		public Profesor(int pId, string pNombre, string pApellido):base(pId,pNombre,pApellido)
+		{
+			
+		}
+	}
+}

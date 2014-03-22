@@ -1,0 +1,41 @@
+/*
+ * Creado por SharpDevelop.
+ * Usuario: Juan
+ * Fecha: 22/03/2014
+ * Hora: 03:44 p.m.
+ */
+
+using System;
+
+namespace Herencia
+{
+	
+	public class Personal
+	{ 
+		private int _Id;
+		private string _Nombre;
+		private string _Apellidos;
+		
+		public int Id
+			{
+			get { return _Id;}
+			set {_Id = value;}
+			}
+		public string Nombre
+			{
+			get { return _Nombre;}
+			set {_Nombre = value;}
+		    }
+		public string Apellidos
+			{
+			get { return _Apellidos;}
+			set {_Apellidos = value;}
+			}
+		public Personal(int pId, string pNombre, string pApellido)
+		{	
+			Id = pId;
+			Nombre = pNombre;
+			Apellidos = pApellido;			
+		}
+	}
+}
