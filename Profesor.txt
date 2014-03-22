@@ -20,9 +20,9 @@ namespace Herencia
 			set { _Direccion = value;}
 		}
 		
-		public Profesor(int pId, string pNombre, string pApellido):base(pId,pNombre,pApellido)
+		public Profesor(int pId, string pNombre, string pApellido):base(pId,pNombre,pApellido,string pDireccion)
 		{
-			
+			Direccion = pDireccion;
 		}
 	}
 }
